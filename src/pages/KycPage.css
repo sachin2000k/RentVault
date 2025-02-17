@@ -1,0 +1,46 @@
+.kyc-page {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .kyc-form input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+  }
+  
+  .kyc-form button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .kyc-completed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+  
+  .kyc-checkmark {
+    font-size: 3rem;
+    color: #28a745;
+    animation: popScale 0.6s ease;
+  }
+  
+  /* Checkmark pop animation */
+  @keyframes popScale {
+    0%   { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1);   opacity: 1; }
+  }
+  

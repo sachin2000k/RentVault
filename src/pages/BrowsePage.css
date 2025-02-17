@@ -1,0 +1,20 @@
+.browse-page {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.7); /* Subtle overlay for pastel bkg */
+    border-radius: 8px;
+  }
+  
+  .browse-container {
+    margin-top: 20px;
+  }
+  
+  .filter-header button {
+    min-width: 50px;
+  }
+  
+  /* If you want to refine the filter content spacing: */
+  .filter-content {
+    margin-top: 10px;
+  }
+  

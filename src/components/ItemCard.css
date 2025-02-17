@@ -1,0 +1,32 @@
+.item-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .item-card:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  .item-card__image {
+    width: 200px;
+    height: 200px;
+    /* Crop the image to fill the box without stretching */
+    object-fit: cover;
+
+    /* Ensure the image can't overflow its container */
+    overflow: hidden;
+
+    /* Optional: align the image container */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .item-card__info {
+    margin-top: 10px;
+  }
+  
+  

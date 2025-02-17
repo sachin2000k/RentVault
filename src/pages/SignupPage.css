@@ -1,0 +1,38 @@
+.signup-page {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .signup-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .role-selection {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .role-selection label {
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .next-button {
+    background-color: #0071e3;
+    border: none;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .next-button:hover {
+    background-color: #005bb5;
+  }
+  

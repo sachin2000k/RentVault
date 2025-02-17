@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* space-between ensures left & right areas */
+    background: #ffffff;
+    color: #0d0d0d;
+    padding: 10px 20px;
+  }
+  
+  .navbar__left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbar-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain; /* or cover, up to you */
+  }
+  
+  .navbar-site-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .navbar__links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar__links a {
+    color: #100f0f;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .navbar__links a:hover {
+    text-decoration: underline;
+  }
+  

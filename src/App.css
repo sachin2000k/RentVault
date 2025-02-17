@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+/* Pastel background for the entire app */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(
+    120deg, 
+    rgba(255, 241, 216, 1) 0%, 
+    rgba(240, 228, 255, 1) 100%
+  );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Let's give a subtle fade-in animation to the main app content */
+.app-content {
+  animation: fadeIn 0.8s ease-in;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Keyframes for fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0px); }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* You can also style headings or text to mimic Apple's minimal style */
+h1, h2, h3, h4 {
+  font-weight: 400;
+  letter-spacing: 1px;
 }

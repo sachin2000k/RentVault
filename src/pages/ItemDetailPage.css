@@ -1,0 +1,31 @@
+.item-detail-page {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+  .item-detail__image {
+    width: 400px;
+    min-width: 300px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+  }
+  
+  .item-detail__info {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .item-detail__info button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #0069d9;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  

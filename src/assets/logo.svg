@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    width="300px" 
+    height="300px" 
+    viewBox="0 0 200 200" 
+    version="1.1" 
+    xmlns="http://www.w3.org/2000/svg"
+    style="background: #ffffff;"
+>
+  <!-- Define a gradient for the lock body -->
+  <defs>
+    <linearGradient id="LockGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <!-- Darker blue on the left -->
+      <stop offset="0%" style="stop-color:#1A3D7C; stop-opacity:1" />
+      <!-- Lighter blue on the right -->
+      <stop offset="100%" style="stop-color:#5BA6F5; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Headphone arc at the top -->
+  <path 
+    d="M 60 40 
+       A 40 40 0 0 1 140 40 
+       L 140 58 
+       A 25 25 0 0 0 115 58
+       L 115 58
+       A 25 25 0 0 0 85 58
+       L 85 58
+       A 25 25 0 0 0 60 58
+       Z"
+    fill="#333"
+  />
+  
+  <!-- Left earcup -->
+  <ellipse 
+    cx="55" cy="90" 
+    rx="10" ry="18" 
+    fill="#333" 
+  />
+  
+  <!-- Right earcup -->
+  <ellipse 
+    cx="145" cy="90" 
+    rx="10" ry="18" 
+    fill="#333" 
+  />
+
+  <!-- Lock body: a rounded rectangle with gradient fill -->
+  <rect
+    x="70" y="60" 
+    width="60" height="60" 
+    rx="8" ry="8"
+    fill="url(#LockGradient)" 
+  />
+
+  <!-- White shape behind the keyhole (to mimic the circular area) -->
+  <circle 
+    cx="100" cy="90" 
+    r="12" 
+    fill="#ffffff"
+  />
+
+  <!-- Keyhole (simple shape) -->
+  <path 
+    d="M 100 82 
+       C 95 82 92 85 92 90 
+       C 92 95 95 98 100 98 
+       C 105 98 108 95 108 90 
+       C 108 85 105 82 100 82 
+       Z
+       M 98 98 
+       L 98 105 
+       L 102 105 
+       L 102 98 Z"
+    fill="#000"
+  />
+</svg>
